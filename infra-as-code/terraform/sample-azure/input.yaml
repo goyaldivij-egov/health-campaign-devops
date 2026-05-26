@@ -1,11 +1,11 @@
 # Replace with the name which you want to give to your AKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "gha-aks-demo"
+cluster_name: "cluster-demo"
 
 # Name of the Azure Resource Group where resources will be created
 # For example: "digit-demo-rg"
-resource_group: "gha-rg-demo"
+resource_group: "cluster-demo"
 
 # Azure region where resources will be deployed
 # For example: "eastus", "westus2", "centralindia"
@@ -13,21 +13,21 @@ location: "centralus"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "ghadigitdbdemo"
+db_name: "clusterdemodb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "ghaadmindemo"
+db_username: "demouser"
 
 # Replace with Domain name you want for your web applications
-domain_name: "gha-demo-new.digit.org"
+domain_name: "cluster-demo.digit.org"
 
 # Replace with the storage account name for terraform state
 # Must be globally unique, 3-24 characters, lowercase letters and numbers only
-storage_account_name: "ghasademo"
+storage_account_name: "clusterdemosa"
 
 # Name of the container in storage account for terraform state
-storage_container_name: "ghasademo-container"
+storage_container_name: "clusterdemosa-container"
 
 # Environment name for tagging resources
-environment: "gha-demo-new"
+environment: "cluster-demo"
