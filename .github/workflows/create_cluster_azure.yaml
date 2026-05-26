@@ -1,5 +1,6 @@
 name: DIGITClusterworkflow-Azure
 # Workflow for Azure deployment
+#test
 on:
   push:
     branches:
